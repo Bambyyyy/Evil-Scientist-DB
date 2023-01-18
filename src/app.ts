@@ -86,6 +86,11 @@ addBtn.addEventListener("click", function (e) {
   madScientist.push(arr);
   divLocation.innerHTML = "";
   printcard();
+
+  scientistName.value = "";
+  scientistAge.value = "";
+  scientistHenchmen.value = "";
+  scientistDescription.value = "";
 });
 
 console.log(madScientist);
